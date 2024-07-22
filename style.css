@@ -56,31 +56,13 @@ header{
         transform: translateX(0);
     }
 }
-@media only screen and  (max-width: 717px){
-    .img{
-        width: 200px;
-        height: 40vh;
-    }
-    #img-pequeno{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-    
-    }
-}
+
 
 #img-pequeno{
-    display: grid;
-    grid-template-areas: 
-    "1 1 1 1"
-    "1 1 1 1"
-    "1 1 1 1"
-    "1 1 1 1"   
-    ;
-text-align: center;
-line-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 
 }
 
@@ -92,15 +74,17 @@ line-height: 15vh;
 }
 #img-grande{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 text-align: center;
 }
 
 .img-grande{
 background-color: aliceblue;
+
 margin: 5px;
 height: 250px;
-width: 350px; 
+width: 250px; 
 }
 
 footer{
