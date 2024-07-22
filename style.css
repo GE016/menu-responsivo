@@ -56,15 +56,17 @@ header{
         transform: translateX(0);
     }
 }
-@media (max-width: 717px){
+@media only screen and  (max-width: 717px){
     .img{
         width: 200px;
         height: 40vh;
     }
     #img-pequeno{
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
     
     }
 }
@@ -84,21 +86,21 @@ line-height: 15vh;
 
 .img{
     background-color: aliceblue;
-    
+    width: 250px;
+    height: 150px;
     margin: 5px;
 }
 #img-grande{
-display: grid;
-grid-template-areas: 
-"1 1 1"
-;
+display: flex;
+justify-content: space-around;
 text-align: center;
 }
 
 .img-grande{
 background-color: aliceblue;
 margin: 5px;
-height: 20vh;
+height: 250px;
+width: 350px; 
 }
 
 footer{
