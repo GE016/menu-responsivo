@@ -60,7 +60,9 @@ header{
 
 #img-pequeno{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     
 
@@ -68,9 +70,11 @@ header{
 
 .img{
     background-color: aliceblue;
-    width: 250px;
-    height: 150px;
+    width: 200px;
+    height: 250px;
     margin: 5px;
+    line-height: 150px;
+    text-align: center;
 }
 #img-grande{
 display: flex;
@@ -81,10 +85,10 @@ text-align: center;
 
 .img-grande{
 background-color: aliceblue;
-
 margin: 5px;
 height: 250px;
 width: 250px; 
+line-height: 250px;
 }
 
 footer{
