@@ -7,11 +7,22 @@
 }
 header{
     height: 100px;
-    background-color: aliceblue;
+    background-color: #AFEEEE;	
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
     align-items: center;
+}
+#imag-menu{
+    min-height: 100px;
+    max-height: 400px;
+    background-image: url(/img/logobackgroud.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+#openMenu{
+    color: rgb(70, 70, 70);
 }
 
 #navigation{
@@ -64,7 +75,6 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 
 }
 
