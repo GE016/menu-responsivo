@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Bubbles&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +9,7 @@
 }
 header{
     height: 100px;
-    background-color: aliceblue;	
+    background-color: rgb(160, 198, 231);	
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
@@ -52,6 +54,9 @@ margin: 15px;
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
+    font-family: "Bungee", sans-serif;
+    color: #1f5009;
+    font-size: 2em;
 }
 #artigo-intro p{
     margin-bottom: 20px;
