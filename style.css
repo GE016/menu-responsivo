@@ -40,11 +40,10 @@ body{
     width: 70px;
 }
 
-#texto-intro{
-font-size: 4.4em;
+p, #texto-intro{
+font-size: 3.8em;
 color: #2B730D;
 font-family: "Bungee", sans-serif;
-box-sizing: border-box;
 text-align: end;
 }
 
@@ -124,11 +123,11 @@ padding: 10px;
     text-align: center;
     text-transform: uppercase;
     font-family:  "Bungee", sans-serif;
-    color: #217346;
+    color: #027e3a;
     padding: 40px 0;
-    background-color: #f1e432;
+    background-color: #fbff032c;
     margin: 30px 0;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px  rgb(0, 0, 0);
     width: 100vw;
 }
 .img-div-container-prod{
@@ -198,7 +197,7 @@ padding: 10px;
     padding: 0;
     text-transform: uppercase;
     font-family: "Bungee", sans-serif;
-    color: rgb(31, 31, 31);
+    color: rgba(1, 80, 5, 0.884);
     font-size: 2em;
     text-shadow: 1px 1px 2px white;
 }
@@ -210,7 +209,6 @@ padding: 10px;
     padding: 50px;
     margin: 50px auto;
 
-
 }
 #artigo-intro p{
     font-size: 1.3em;
@@ -220,9 +218,6 @@ padding: 10px;
     margin-top: 30px;
     text-align: justify;
     margin-bottom: 30px;
-    
-    
-    
 }
 #artigo-intro h3{
     font-size: 1.6em;
@@ -312,7 +307,7 @@ padding: 10px;
 
 }
 
-@media (max-width: 588px){
+@media (max-width: 601px){
     #texto-intro{
         font-size: 2.5em;       
     }
