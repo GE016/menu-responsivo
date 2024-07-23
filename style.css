@@ -56,24 +56,44 @@ align-items: center;
 align-content: center;
 margin: 15px;
 }
-#artigo-intro{
-    width: 90vw;
-    margin: auto;
-    padding: 0 20px;
-    text-align: justify;
-}
+
 #artigo-intro h2{
-    text-align: center;
-    padding: 20px;
+    padding: 0;
     text-transform: uppercase;
     font-family: "Bungee", sans-serif;
-    color: #616161;
+    color: #cf7a19;
     font-size: 2em;
 }
-#artigo-intro p{
-    margin-bottom: 20px;
-    font-size: 1.2em;
+#artigo-intro{   
+    width: 60%;
+    background: rgba(31, 231, 91, 0.116);
+    padding: 0 40px;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
+
+
 }
+#artigo-intro p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 2.5rem;
+    line-height: 1.8em;
+    
+}
+#artigo-intro h3{
+    font-size: 1.6em;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
 #navigation{
     display: flex;
     gap: 30px;  
@@ -156,6 +176,7 @@ margin: 15px;
     #closeMenu:hover{
     color: #2B730D;
     }
+    
     #navigation {
         display: flex;
         flex-direction: column;
@@ -193,6 +214,9 @@ margin: 15px;
     #paragraf-logo{
         font-size: 0.5em;
     }
+    #artigo-intro{
+        padding: 15px;
+        }
 }
 @media (max-width: 450px){
     #logo{
@@ -211,7 +235,10 @@ margin: 15px;
         width: 35px;   
     }
     #artigo-intro h2{
-        font-size: 1.2em;
+        font-size: 1.45em;
+        text-align: left;
+        margin: 0;
+        padding: 0;
     }
     #artigo-intro p{
         font-size: 1em;
@@ -225,6 +252,10 @@ margin: 15px;
         line-height: 200px;
         max-width: 100%;
     }
+    #artigo-intro{
+        padding: 15px;
+        width: 100%;
+        }
 }
 
 footer{
