@@ -25,35 +25,26 @@ header{
     text-shadow: 1px 1px  #ffffff;
     border-bottom: 1px solid #d18d0e;
     box-shadow: 0px 1px rgb(255, 255, 255);
-    
-    
 }
 #imag-menu img{
-    
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
     text-align: center;
     width: 70px;
-
 }
-
 .img-intro-excel1{
     max-width: 100%;
     height: auto;
     border-radius: 100px;
     border: 1px solid #2B730D;
-    margin: 10px 0;
-    
+    margin: 10px 0; 
 }
-
 #texto-intro{
 font-size: 2em;
 color: #2B730D;
 font-family: "Bungee", sans-serif;
-
 }
-
 #container-header{
 background-color: white;
 display: flex;
@@ -63,7 +54,6 @@ align-items: center;
 align-content: center;
 margin: 15px;
 }
-
 #artigo-intro{
     width: 90vw;
     margin: auto;
@@ -81,14 +71,10 @@ margin: 15px;
 #artigo-intro p{
     margin-bottom: 20px;
     font-size: 1.2em;
-
 }
-
-
 #navigation{
     display: flex;
-    gap: 30px;
-    
+    gap: 30px;  
 }
 #navigation li a{
     font-size: 1.3rem;
@@ -99,8 +85,6 @@ margin: 15px;
     font-size: 1.3rem;
     color: #f1ae32;
 }
-
-
 #paragraf-logo{
     align-items: center;
     text-align: center;
@@ -108,7 +92,6 @@ margin: 15px;
     color: #d18d0e;
     border-bottom: 1px solid rgba(153, 153, 153, 0.589);
 }
-
 #closeMenu, #openMenu{
     border: none;
     background: none;
@@ -125,14 +108,11 @@ margin: 15px;
     color: #2B730D;
     border-radius: 50%;
 }
-
-
 #closeMenu{
     position: fixed;
     right: 15px;
     top: 15px;
 }
-/*Menu*/
 @media only screen and (max-width: 717px){
     #openMenu, #closeMenu{
     display: block;
@@ -141,8 +121,6 @@ margin: 15px;
     #closeMenu:hover{
     color: #2B730D;
     }
-
-  
     #navigation {
         display: flex;
         flex-direction: column;
@@ -155,20 +133,15 @@ margin: 15px;
         align-items: center;
         justify-content: center;
         transform: translateX(-100%);
-        transition: transform 0.3s ease-in-out;
-        
+        transition: transform 0.3s ease-in-out; 
     }
     #navigation li a {
         color: #2B730D;
-        
-        
     }
     #navigation.open {
         transform: translateX(0);
     }
-    
 }
-
 @media (max-width: 501px){
     #texto-intro{
         font-size: 1.2em;       
@@ -178,8 +151,7 @@ margin: 15px;
     }
 
     #imag-menu img{
-        width: 35px;
-        
+        width: 35px;   
     }
     #artigo-intro h2{
         font-size: 1.2em;
@@ -187,19 +159,14 @@ margin: 15px;
     #artigo-intro p{
         font-size: 1em;
     }
-
-    }
-
-
+}
 #img-pequeno{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-
 }
-
 .img{
     background-color: aliceblue;
     min-width: 200px;
@@ -222,7 +189,6 @@ height: 250px;
 width: 300px; 
 line-height: 250px;
 }
-
 footer{
     background-color: aliceblue;
     height: 100px;
