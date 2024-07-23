@@ -17,6 +17,50 @@ header{
     align-items: center;
     box-shadow: 2px 1px 6px rgb(158, 158, 158) ;
 }
+
+#produtos h1{
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:  "Bungee", sans-serif;
+    color: #217346;
+    padding: 40px 0;
+    background-color: #f1e432;
+    margin: 30px 0;
+    text-shadow: 2px 2px 5px white;
+}
+.img-div-container-prod{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.img-div-container-prod div a {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-left: 5px;
+    
+}
+
+.img-prod{
+    width: 50px;
+}
+
+
+#container-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+
+
 #logo{
     font-size: 2.4rem;
     color:#d18d0e;
