@@ -140,6 +140,11 @@ margin: 15px;
     font-size: 0.8em;
 }
 
+.img-div-container-prod div a:hover{
+    font-size: 0.9em;
+    color: #d18d0e;
+}
+
 .img-prod{
     width: 50px;
 }
@@ -186,7 +191,7 @@ margin: 15px;
 }
 #artigo-intro{   
     width: 90%;
-    background: radial-gradient(circle at top, #21734694, #80c29e56);
+    background: radial-gradient(circle at top, #21737394, #3f3f3faf);
     padding: 0 40px;
     border-radius: 8px;
     padding: 50px;
@@ -203,6 +208,7 @@ margin: 15px;
     margin-top: 30px;
     text-align: justify;
     margin-bottom: 30px;
+    
     
     
 }
