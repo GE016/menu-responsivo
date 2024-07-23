@@ -35,13 +35,16 @@ header{
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 5px 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #81a591;
+    gap: 15px;
+    padding: 20px;
 }
 .img-div-container-prod div a {
-    display: block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
-    padding-left: 5px;
+    
     
 }
 
@@ -53,9 +56,14 @@ header{
 #container-produtos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
+    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 100vw;
+    
+    
     
 }
 
@@ -202,7 +210,7 @@ margin: 15px;
 
 .slideshow-container {
         position: relative;
-        max-width: 60%;
+        max-width: 90%;
         margin: auto;
         overflow: hidden;
         height: 400px;
