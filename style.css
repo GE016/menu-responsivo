@@ -69,6 +69,8 @@ align-items: center;
 align-content: center;
 margin: 15px;
 padding: 10px;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.185);
+border-radius: 5px;
 }
 #alinhar-cab-text{
     display: flex;
