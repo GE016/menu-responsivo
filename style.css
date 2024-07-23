@@ -8,6 +8,8 @@
     text-decoration: none;
     list-style: none;
 }
+
+/*Cabeçalho*/
 header{
     height: 100px;
     background: linear-gradient(to bottom right, rgb(42, 109, 28), #217346);
@@ -17,57 +19,6 @@ header{
     align-items: center;
     box-shadow: 2px 1px 6px rgb(158, 158, 158) ;
 }
-
-#produtos h1{
-    font-size: 3em;
-    text-align: center;
-    text-transform: uppercase;
-    font-family:  "Bungee", sans-serif;
-    color: #217346;
-    padding: 40px 0;
-    background-color: #f1e432;
-    margin: 30px 0;
-    text-shadow: 2px 2px 5px white;
-}
-.img-div-container-prod{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 300px;
-    height: 100px;
-    background-color: #81a591;
-    gap: 15px;
-    padding: 20px;
-}
-.img-div-container-prod div a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    
-    
-}
-
-.img-prod{
-    width: 50px;
-}
-
-
-#container-produtos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    gap: 20px;
-    width: 100vw;
-    
-    
-    
-}
-
-
 
 #logo{
     font-size: 2.4rem;
@@ -102,6 +53,99 @@ align-items: center;
 align-content: center;
 margin: 15px;
 }
+
+/*Navigation*/
+
+#navigation{
+    display: flex;
+    gap: 30px;  
+}
+#navigation li a{
+    font-size: 1.3rem;
+    color: white;
+}
+
+#navigation li a:hover{
+    font-size: 1.3rem;
+    color: #f1ae32;
+}
+
+#closeMenu, #openMenu{
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+    color: #f1ae32;
+    font-size: 28px;
+    text-shadow: 0px 1px #ffffff;
+}
+#openMenu:hover{
+    background-color: white;
+    color: #2B730D;
+    border-radius: 50%;
+}
+#closeMenu{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+}
+
+
+/*Produtos*/
+#produtos h1{
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:  "Bungee", sans-serif;
+    color: #217346;
+    padding: 40px 0;
+    background-color: #f1e432;
+    margin: 30px 0;
+    text-shadow: 2px 2px 5px white;
+}
+.img-div-container-prod{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+.img-div-container-prod div a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.img-prod{
+    width: 50px;
+}
+
+#container-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    width: 100vw; 
+}
+
+/*Sobre excel*/
+
 #sobre-excel-container{
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +163,16 @@ margin: 15px;
     padding: 30px;
     border-radius: 5px;
     margin: auto;
+}
+
+#paragraf-logo{
+    align-items: center;
+    text-align: center;
+    font-size: 0.6em;
+    color: #d18d0e;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.589);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end;
 }
 
 
@@ -164,49 +218,7 @@ margin: 15px;
 }
 
 
-#navigation{
-    display: flex;
-    gap: 30px;  
-}
-#navigation li a{
-    font-size: 1.3rem;
-    color: white;
-}
-
-#navigation li a:hover{
-    font-size: 1.3rem;
-    color: #f1ae32;
-}
-#paragraf-logo{
-    align-items: center;
-    text-align: center;
-    font-size: 0.6em;
-    color: #d18d0e;
-    border-bottom: 1px solid rgba(153, 153, 153, 0.589);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: end;
-}
-#closeMenu, #openMenu{
-    border: none;
-    background: none;
-    font-size: 30px;
-    padding: 5px;
-    cursor: pointer;
-    display: none;
-    color: #f1ae32;
-    font-size: 28px;
-    text-shadow: 0px 1px #ffffff;
-}
-#openMenu:hover{
-    background-color: white;
-    color: #2B730D;
-    border-radius: 50%;
-}
-#closeMenu{
-    position: fixed;
-    right: 15px;
-    top: 15px;
-}
+/*Slides*/
 
 .slideshow-container {
         position: relative;
@@ -216,21 +228,32 @@ margin: 15px;
         height: 400px;
         line-height: 600px;
 }
+
+/*Vídeos*/
 .video-container {
-    
-    position: relative;
-    padding-bottom: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
     overflow: hidden;
-    max-width: 50%;
-    background: #000;
-    margin: 20px auto;
+    max-width: 100%;
+    margin: auto;
     border-radius: 5px;
 }
 
+#video-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
+    margin: auto 0;
+
+}
 
 .video-container iframe {
-    display: inline;
-    position: absolute;
+    display: block;
     margin: auto;
     top: 0;
     left: 0;
@@ -238,6 +261,7 @@ margin: 15px;
     height: 100%;
     
 }
+
 @media only screen and (max-width: 717px){
     #openMenu, #closeMenu{
     display: block;
