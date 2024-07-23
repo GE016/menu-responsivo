@@ -113,6 +113,26 @@ margin: 15px;
     right: 15px;
     top: 15px;
 }
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 50%;
+    background: #000;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+
+.video-container iframe {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (max-width: 717px){
     #openMenu, #closeMenu{
     display: block;
@@ -141,6 +161,29 @@ margin: 15px;
     #navigation.open {
         transform: translateX(0);
     }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 80%;
+        background: #000;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+    
+    
+    .video-container iframe {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
 }
 @media (max-width: 501px){
     #texto-intro{
