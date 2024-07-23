@@ -37,7 +37,12 @@ body {
     text-shadow: 1px 1px  #ffffff;
     border-bottom: 1px solid #2B730D;
     box-shadow: 0px 1px rgb(255, 255, 255);
-    
+    background-image: url(/img/Vector-Cattle-PNG.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 4.5em;
+  
 }
 #imag-menu img{
     text-align: center;
