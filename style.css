@@ -12,22 +12,26 @@
 /*Cabeçalho*/
 header{
     width: 100vw;
-    height: 150px;
-    background: linear-gradient(to bottom right, rgb(42, 109, 28), #217346);
+    height: 220px;
+    background: #333333;
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0 40px;
     align-items: center;
     box-shadow: 2px 1px 6px rgb(158, 158, 158) ;
 }
 
+body{
+    background: #e7e9eb3b;
+}
+
 #logo{
-    font-size: 2.4rem;
-    color:#d18d0e;
+    font-size: 3.8rem;
+    color: #2B730D;
     font-family: "Audiowide", sans-serif;
-    font-weight: 550;
+    font-weight: bold;
     text-shadow: 1px 1px  #ffffff;
-    border-bottom: 1px solid #d18d0e;
+    border-bottom: 1px solid #2B730D;
     box-shadow: 0px 1px rgb(255, 255, 255);
     
 }
@@ -70,7 +74,7 @@ margin: 15px;
 
 #navigation{
     display: flex;
-    gap: 30px;  
+    gap: 60px;  
 }
 #navigation li a{
     font-size: 1.3rem;
@@ -191,12 +195,11 @@ margin: 15px;
 }
 #artigo-intro{   
     width: 90%;
-    background: radial-gradient(circle at top, #21737394, #3f3f3faf);
+    background: #E7E9EB;
     padding: 0 40px;
     border-radius: 8px;
     padding: 50px;
     margin: 50px auto;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.534);
 
 
 }
@@ -237,15 +240,6 @@ margin: 15px;
 }
 
 /*Vídeos*/
-.video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    overflow: hidden;
-    max-width: 100%;
-    margin: auto;
-    border-radius: 5px;
-}
 
 #video-container{
     width: 100%;
@@ -255,8 +249,9 @@ margin: 15px;
     justify-content: space-around;
     justify-content: center;
     gap: 10px;
-    margin: auto 0;
     margin-bottom: 30px;
+    align-content: center;
+    
 
 }
 
@@ -267,6 +262,7 @@ margin: 15px;
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
     
 }
 
@@ -324,20 +320,25 @@ margin: 15px;
         }
 }
 @media (max-width: 450px){
+    #container-header{
+        width: 98%;
+        margin: auto;
+        padding-top: 15px;
+    }
     #logo{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     #texto-intro{
-        font-size: 1em;       
+        font-size: 1.8em;       
     }
     #paragraf-logo{
-        font-size: 0.41em;
+        font-size: 0.65em;
         margin: 0 5% 0 8%;
 
     }
 
     #imag-menu img{
-        width: 35px;   
+        width: 45px;   
     }
     #artigo-intro h2{
         font-size: 1.45em;
@@ -363,10 +364,13 @@ margin: 15px;
     #artigo-intro h3{
             font-size: 1.4em;
     }
+    #video, #produtos h1{
+        font-size: 1.5em;
+    }
 }
 
 footer{
-    background: linear-gradient(to bottom right, rgb(0, 0, 0), #15241bef);    
+    background: #282A35;    
     height: 300px;
     text-align: center;
     color: #ffffff;
