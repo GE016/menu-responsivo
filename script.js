@@ -1,6 +1,8 @@
 function toggleNavigation() {
     const navigation = document.getElementById('navigation');
+    const slidPosition = document.querySelector('.slideshow-container');
     navigation.classList.toggle('open');
+    slidPosition.classList.toggle('slidPositionNone')
 }
 
 let slideIndex = 0;
