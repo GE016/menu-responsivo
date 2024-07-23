@@ -12,11 +12,11 @@
 /*Cabeçalho*/
 header{
     width: 100vw;
-    height: 220px;
+    height: 100px;
     background: #333333;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 20px;
     align-items: center;
     box-shadow: 2px 1px 6px rgb(158, 158, 158) ;
 }
@@ -36,26 +36,23 @@ body{
     
 }
 #imag-menu img{
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
     text-align: center;
     width: 70px;
 }
 
 #texto-intro{
-font-size: 3.9em;
+font-size: 4.4em;
 color: #2B730D;
 font-family: "Bungee", sans-serif;
+box-sizing: border-box;
 text-align: end;
 }
 
 #paragraf-logo{
-    align-items: center;
+    align-items:center;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #d18d0e;
-    border-bottom: 1px solid rgba(153, 153, 153, 0.589);
     font-family: 'Courier New', Courier, monospace;
     text-align: end;
 }
@@ -68,6 +65,18 @@ justify-content: center;
 align-items: center;
 align-content: center;
 margin: 15px;
+padding: 10px;
+}
+#alinhar-cab-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#container-header>div{
+    margin: 0px 5px;
+    padding: 20px 0;
+    
 }
 
 /*Navigation*/
@@ -94,13 +103,13 @@ margin: 15px;
     cursor: pointer;
     display: none;
     color: #f1ae32;
-    font-size: 28px;
+    font-size: 32px;
     text-shadow: 0px 1px #ffffff;
 }
 #openMenu:hover{
     background-color: white;
     color: #2B730D;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 #closeMenu{
     position: fixed;
@@ -231,10 +240,10 @@ margin: 15px;
 
 .slideshow-container {
         position: relative;
-        max-width: 90%;
+        max-width: 85%;
         margin: auto;
         overflow: hidden;
-        height: 400px;
+        height: 600px;
         line-height: 600px;
 
 }
@@ -246,11 +255,9 @@ margin: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
     gap: 10px;
-    margin-bottom: 30px;
-    align-content: center;
+    justify-content: center;
+    align-items: stretch;
     
 
 }
@@ -326,14 +333,14 @@ margin: 15px;
         padding-top: 15px;
     }
     #logo{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
     #texto-intro{
-        font-size: 1.8em;       
+        font-size: 1.4em;       
     }
     #paragraf-logo{
-        font-size: 0.65em;
-        margin: 0 5% 0 8%;
+        font-size: 0.75em;
+        margin: auto;
 
     }
 
@@ -351,7 +358,7 @@ margin: 15px;
     }
     .video-container {
     
-        padding-bottom: 50%;
+        padding-bottom: 5%;
     }
     .slideshow-container {
         height: 150px;
