@@ -12,7 +12,7 @@
 /*Cabeçalho*/
 header{
     width: 100vw;
-    height: 150px;
+    height: 120px;
     background: #333333;
     display: flex;
     justify-content: space-between;
@@ -32,10 +32,10 @@ body {
 #logo{
     font-size: 3.8rem;
     display: inline;
-    color: #2B730D;
+    color: #2f7710;
     font-family: "Audiowide", sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px  #ffffff;
+    text-shadow: 1px 3px  #ffffff;
     border-bottom: 1px solid #050505;
     box-shadow: 0px 1px rgb(255, 255, 255);
     background-image: url(/img/Vector-Cattle-PNG.png);
@@ -120,7 +120,7 @@ border-radius: 5px;
     cursor: pointer;
     display: none;
     color: #f1ae32;
-    font-size: 32px;
+    font-size: 42px;
     text-shadow: 0px 1px #ffffff;
 }
 #openMenu:hover{
