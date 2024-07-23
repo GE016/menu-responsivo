@@ -21,8 +21,12 @@ header{
     box-shadow: 2px 1px 6px rgb(158, 158, 158) ;
 }
 
-body{
-    background: #e7e9eb3b;
+body {
+    background-image: url('/img/wallpaper004.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 #logo{
@@ -40,7 +44,7 @@ body{
     width: 70px;
 }
 
-p, #texto-intro{
+#texto-intro{
 font-size: 3.8em;
 color: #2B730D;
 font-family: "Bungee", sans-serif;
@@ -118,6 +122,31 @@ padding: 10px;
 
 
 /*Produtos*/
+.sobre-o-canal{
+    width: 100vw;
+}
+.sobre-o-canal p{
+    background: #e7e9eb6b;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 3rem;
+    line-height: 1.8em;
+    text-align: justify;
+    padding: 50px 60px;
+}
+.sobre-o-canal ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 80px;
+    font-size: 1.2em;
+}
+.sobre-o-canal li{
+    font-weight: bold;
+    padding: 10px;
+    list-style:circle;
+    color: #1a4906;
+}
+
+
 #video, #produtos h1{
     font-size: 3em;
     text-align: center;
@@ -203,7 +232,7 @@ padding: 10px;
 }
 #artigo-intro{   
     width: 90%;
-    background: #E7E9EB;
+    background: #e7e9eb6b;
     padding: 0 40px;
     border-radius: 8px;
     padding: 50px;
@@ -219,6 +248,8 @@ padding: 10px;
     text-align: justify;
     margin-bottom: 30px;
 }
+
+
 #artigo-intro h3{
     font-size: 1.6em;
     text-align: left;
@@ -369,22 +400,39 @@ padding: 10px;
     #video, #produtos h1{
         font-size: 1.5em;
     }
+    .sobre-o-canal p{
+        padding: 30px 20px;
+        margin: auto;
+        font-size: 1em;
+        
+    }
+    .sobre-o-canal ul{
+        padding: 30px 20px;
+        text-align: justify;
+        font-size: 0.8em;
+    }
+    .sobre-o-canal li{
+        
+        list-style:circle;
+        
+    }
 }
 
-
 footer{
+    display: flex;
     background: #282A35;    
-    height: 300px;
+    height: 150px;
     text-align: center;
     color: #ffffff;
     font-size: 1em;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100vw;
+    margin-top: 30px;
     
 }
 #footer-principal{
     font-size: 1.2em;
 }
+
 
