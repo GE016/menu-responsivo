@@ -64,15 +64,6 @@ align-content: center;
 margin: 15px;
 }
 
-.img-intro-excel1{
-    background-image: url(/img/quadrado-de-pearson.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-
 #artigo-intro{
     width: 90vw;
     margin: auto;
