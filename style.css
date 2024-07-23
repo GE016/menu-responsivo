@@ -10,7 +10,7 @@
 }
 header{
     height: 100px;
-    background-color: rgb(42, 109, 28);	
+    background: linear-gradient(to bottom right, rgb(42, 109, 28), #217346);
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
@@ -34,13 +34,7 @@ header{
     text-align: center;
     width: 70px;
 }
-.img-intro-excel1{
-    max-width: 100%;
-    height: auto;
-    border-radius: 100px;
-    border: 1px solid #2B730D;
-    margin: 10px 0; 
-}
+
 #texto-intro{
 font-size: 2.5em;
 color: #2B730D;
@@ -56,17 +50,37 @@ align-items: center;
 align-content: center;
 margin: 15px;
 }
+#sobre-excel-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: auto;
+
+}
+#sobre-excel-container div{
+    max-width: 717px;
+    text-align: justify;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    margin: auto;
+}
+
 
 #artigo-intro h2{
     padding: 0;
     text-transform: uppercase;
     font-family: "Bungee", sans-serif;
-    color: #cf7a19;
+    color: rgb(31, 31, 31);
     font-size: 2em;
+    text-shadow: 1px 1px 2px white;
 }
 #artigo-intro{   
-    width: 60%;
-    background: rgba(31, 231, 91, 0.116);
+    width: 90%;
+    background: radial-gradient(circle at top, #21734694, #80c29e56);
     padding: 0 40px;
     border-radius: 8px;
     padding: 50px;
@@ -76,12 +90,14 @@ margin: 15px;
 
 }
 #artigo-intro p{
-    margin-top: 20px;
-    margin-bottom: 20px;
     font-size: 1.3em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-indent: 2.5rem;
     line-height: 1.8em;
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 30px;
+    
     
 }
 #artigo-intro h3{
@@ -90,6 +106,8 @@ margin: 15px;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     font-weight: bold;
+    color: #d18d0e;
+    border-bottom: 1px solid rgb(170, 168, 163);
     
 }
 
@@ -143,8 +161,8 @@ margin: 15px;
         max-width: 60%;
         margin: auto;
         overflow: hidden;
-        height: 500px;
-        line-height: 500px;
+        height: 400px;
+        line-height: 600px;
 }
 .video-container {
     
@@ -253,13 +271,15 @@ margin: 15px;
         max-width: 100%;
     }
     #artigo-intro{
-        padding: 15px;
-        width: 100%;
-        }
+                width: 100%;
+    }
+    #artigo-intro h3{
+            font-size: 1.4em;
+    }
 }
 
 footer{
-    background-color: rgb(16, 29, 5);
+    background: linear-gradient(to bottom right, rgb(42, 109, 28), #217346);    
     height: 300px;
     text-align: center;
     color: #ffffff;
