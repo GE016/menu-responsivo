@@ -458,7 +458,7 @@ border-radius: 5px;
     }
 }
 
-footer{
+footer p{
     display: flex;
     background: #282A35;    
     height: 150px;
@@ -470,6 +470,13 @@ footer{
     width: 100vw;
     margin-top: 30px;
     
+}
+
+footer .ano{
+    text-align: center;
+    background: #027e3a;
+    padding: 5px;
+    color: white;
 }
 #footer-principal{
     font-size: 1.2em;

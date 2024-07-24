@@ -29,3 +29,10 @@ function currentSlide(n) {
     slideIndex = n;
     showSlides();
 }
+
+function mostrarAno(){
+    const dataHoje = new Date();
+    const anoHoje = dataHoje.getFullYear();
+    let ano = document.querySelector('.ano');
+    ano.innerHTML = `<div>©${anoHoje} Todos Os Direitos Reservados.</div>`
+}
