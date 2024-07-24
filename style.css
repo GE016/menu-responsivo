@@ -304,8 +304,10 @@ border-radius: 5px;
 }
 .destaque{
     border-radius: 5px;
-    width: 70vw;
-    height: 550px
+    width: 560px;
+    height: 315px;
+    
+
 }
 #video-destaque h2{
     text-align: center;
@@ -375,11 +377,7 @@ border-radius: 5px;
         height: 300px;
         line-height: 350px;
     }
-    .destaque{
-        border-radius: 5px;
-        width: 70vw;
-        height: 450px
-    }
+    
     
     #navigation {
         display: flex;
@@ -430,8 +428,8 @@ border-radius: 5px;
         }
         .destaque{
             border-radius: 5px;
-            width: 70vw;
-            height: 400px
+            width: 80vw;
+            height: 250px
         }
         
 }
@@ -517,8 +515,8 @@ border-radius: 5px;
     }
     .destaque{
         border-radius: 5px;
-        width: 90vw;
-        height: 300px
+        width: 80vw;
+        height: 150px
     }
     
 }
